@@ -43,5 +43,7 @@ WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/tex
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/h2_Appointment Confirmation'), 3)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'))
 
